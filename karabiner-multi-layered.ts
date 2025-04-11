@@ -39,14 +39,6 @@ const mods = complexModifications([
   ).manipulators([map('u').to('←', '<⌥'), map('o').to('→', '<⌥')]),
   layer(
     layer1KeyCode,
-    `1: [Mission Control] ${layer1Label} + m, comma, period to ⌃ + ←, ↑, → (Switch Desktop)`,
-  ).manipulators([
-    map('m').to('←', '<⌃'),
-    map(',').to('↑', '<⌃'),
-    map('.').to('→', '<⌃'),
-  ]),
-  layer(
-    layer1KeyCode,
     `1: [Mouse] ${layer1Label} + e, s, d, f to Mouse ↑, ←, ↓, →`,
   ).manipulators([
     map('e').toMouseKey({ y: -1 * mouseSpeed }),
@@ -76,6 +68,14 @@ const mods = complexModifications([
     layer1KeyCode,
     `1: [Web Browser] ${layer1Label} + q, t to ⌃⇧ + ⇥, ⌃ + ⇥ (Switch Tab)`,
   ).manipulators([map('q').to('⇥', '<⌃⇧'), map('t').to('⇥', '<⌃')]),
+  layer(
+    layer1KeyCode,
+    `1: [Mission Control] ${layer1Label} + m, comma, period to ⌃ + ←, ↑, → (Switch Desktop)`,
+  ).manipulators([
+    map('m').to('←', '<⌃'),
+    map(',').to('↑', '<⌃'),
+    map('.').to('→', '<⌃'),
+  ]),
   // layer 2
   layer(
     layer2KeyCode,

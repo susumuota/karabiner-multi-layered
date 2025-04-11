@@ -39,12 +39,6 @@
             },
             {
               "set_variable": {
-                "name": "1: [Mission Control] 英数 + m, comma, period to ⌃ + ←, ↑, → (Switch Desktop)",
-                "value": 1
-              }
-            },
-            {
-              "set_variable": {
                 "name": "1: [Mouse] 英数 + e, s, d, f to Mouse ↑, ←, ↓, →",
                 "value": 1
               }
@@ -70,6 +64,12 @@
             {
               "set_variable": {
                 "name": "1: [Web Browser] 英数 + q, t to ⌃⇧ + ⇥, ⌃ + ⇥ (Switch Tab)",
+                "value": 1
+              }
+            },
+            {
+              "set_variable": {
+                "name": "1: [Mission Control] 英数 + m, comma, period to ⌃ + ←, ↑, → (Switch Desktop)",
                 "value": 1
               }
             }
@@ -118,12 +118,6 @@
             },
             {
               "set_variable": {
-                "name": "1: [Mission Control] 英数 + m, comma, period to ⌃ + ←, ↑, → (Switch Desktop)",
-                "value": 0
-              }
-            },
-            {
-              "set_variable": {
                 "name": "1: [Mouse] 英数 + e, s, d, f to Mouse ↑, ←, ↓, →",
                 "value": 0
               }
@@ -149,6 +143,12 @@
             {
               "set_variable": {
                 "name": "1: [Web Browser] 英数 + q, t to ⌃⇧ + ⇥, ⌃ + ⇥ (Switch Tab)",
+                "value": 0
+              }
+            },
+            {
+              "set_variable": {
+                "name": "1: [Mission Control] 英数 + m, comma, period to ⌃ + ←, ↑, → (Switch Desktop)",
                 "value": 0
               }
             }
@@ -346,74 +346,6 @@
             {
               "type": "variable_if",
               "name": "1: [Cursor] 英数 + u, o to ⌥ + ←, → (Word Backward, Forward)",
-              "value": 1
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "description": "Layer - 1: [Mission Control] 英数 + m, comma, period to ⌃ + ←, ↑, → (Switch Desktop)",
-      "manipulators": [
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "m"
-          },
-          "to": [
-            {
-              "key_code": "left_arrow",
-              "modifiers": [
-                "left_control"
-              ]
-            }
-          ],
-          "conditions": [
-            {
-              "type": "variable_if",
-              "name": "1: [Mission Control] 英数 + m, comma, period to ⌃ + ←, ↑, → (Switch Desktop)",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "comma"
-          },
-          "to": [
-            {
-              "key_code": "up_arrow",
-              "modifiers": [
-                "left_control"
-              ]
-            }
-          ],
-          "conditions": [
-            {
-              "type": "variable_if",
-              "name": "1: [Mission Control] 英数 + m, comma, period to ⌃ + ←, ↑, → (Switch Desktop)",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "period"
-          },
-          "to": [
-            {
-              "key_code": "right_arrow",
-              "modifiers": [
-                "left_control"
-              ]
-            }
-          ],
-          "conditions": [
-            {
-              "type": "variable_if",
-              "name": "1: [Mission Control] 英数 + m, comma, period to ⌃ + ←, ↑, → (Switch Desktop)",
               "value": 1
             }
           ]
@@ -680,6 +612,74 @@
             {
               "type": "variable_if",
               "name": "1: [Web Browser] 英数 + q, t to ⌃⇧ + ⇥, ⌃ + ⇥ (Switch Tab)",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Layer - 1: [Mission Control] 英数 + m, comma, period to ⌃ + ←, ↑, → (Switch Desktop)",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "m"
+          },
+          "to": [
+            {
+              "key_code": "left_arrow",
+              "modifiers": [
+                "left_control"
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "1: [Mission Control] 英数 + m, comma, period to ⌃ + ←, ↑, → (Switch Desktop)",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "comma"
+          },
+          "to": [
+            {
+              "key_code": "up_arrow",
+              "modifiers": [
+                "left_control"
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "1: [Mission Control] 英数 + m, comma, period to ⌃ + ←, ↑, → (Switch Desktop)",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "period"
+          },
+          "to": [
+            {
+              "key_code": "right_arrow",
+              "modifiers": [
+                "left_control"
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "1: [Mission Control] 英数 + m, comma, period to ⌃ + ←, ↑, → (Switch Desktop)",
               "value": 1
             }
           ]
