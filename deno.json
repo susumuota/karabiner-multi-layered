@@ -1,0 +1,13 @@
+{
+  "tasks": {
+    "dev": "deno run --watch --allow-env --allow-read --allow-write karabiner-multi-layered.ts",
+    "json": "deno run --allow-env --allow-read --allow-write karabiner-multi-layered.ts > karabiner-multi-layered.json",
+    "format": "deno fmt",
+    "lint": "deno lint"
+  },
+  "fmt": {
+    "lineWidth": 119,
+    "semiColons": false,
+    "singleQuote": true
+  }
+}
