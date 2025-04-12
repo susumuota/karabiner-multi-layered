@@ -10,6 +10,10 @@ This is a [Karabiner-Elements](https://karabiner-elements.pqrs.org/) complex mod
 
 <img src="https://github.com/user-attachments/assets/276149fb-370f-41a6-8b27-3b5288998157" width="600" alt="Layer2">
 
+- Keymap
+
+<img src="https://github.com/user-attachments/assets/0b99ec82-c42c-454a-a326-0db4ed58cc10" width="600" alt="Keymap">
+
 ## Install
 
 - Open `Karabiner-Elements Settings`.
@@ -33,13 +37,13 @@ cd karabiner-multi-layered
 ```
 
 - Edit the [karabiner-multi-layered.ts](karabiner-multi-layered.ts).
-- Run the following command to re-generate the JSON file.
+- Run the following command to re-generate the JSON file. This will create a new `karabiner-multi-layered.json` file. Copy this file to `~/.config/karabiner/assets/complex_modifications/`.
 
 ```shell
 deno task json
 ```
 
-- To develop the Karabiner-Elements, run the following command.
+- Or run the following command to tweak the keymap continuously. This will watch for changes in the `karabiner-multi-layered.ts` file and update the `Default profile` of Karabiner-Elements automatically.
 
 ```shell
 deno task dev
