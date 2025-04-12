@@ -10,9 +10,9 @@ This is a [Karabiner-Elements](https://karabiner-elements.pqrs.org/) complex mod
 
   <img src="https://github.com/user-attachments/assets/276149fb-370f-41a6-8b27-3b5288998157" width="800" alt="Layer2">
 
-- Keymap
+- Rules.
 
-  <img src="https://github.com/user-attachments/assets/0b99ec82-c42c-454a-a326-0db4ed58cc10" width="800" alt="Keymap">
+  <img src="https://github.com/user-attachments/assets/0b99ec82-c42c-454a-a326-0db4ed58cc10" width="800" alt="rules">
 
 ## Install
 
