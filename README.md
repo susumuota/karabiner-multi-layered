@@ -2,11 +2,11 @@
 
 This is a [Karabiner-Elements](https://karabiner-elements.pqrs.org/) complex modification for Japanese keyboards. It provides a multi-layered keymap that allows you to use the same keys for different functions depending on the layer you are in.
 
-- Layer 1: Modifier: 英数 (`japanese_eisu`), Cursor, Mouse, Web Browser, Mission Control.
+- Layer 1: Modifier: 英数 (`japanese_eisu`), Functions: Cursor, Mouse, Web Browser, Mission Control.
 
   <img src="https://github.com/user-attachments/assets/610fac79-ede7-4895-8601-b5da5d9b6b79" width="800" alt="Layer1">
 
-- Layer 2: Modifier: かな (`japanese_kana`), NumPad.
+- Layer 2: Modifier: かな (`japanese_kana`), Functions: NumPad.
 
   <img src="https://github.com/user-attachments/assets/276149fb-370f-41a6-8b27-3b5288998157" width="800" alt="Layer2">
 
