@@ -4,15 +4,15 @@ This is a [Karabiner-Elements](https://karabiner-elements.pqrs.org/) complex mod
 
 - Layer 1: Modifier: 英数 (`japanese_eisu`), Cursor, Mouse, Web Browser, Mission Control.
 
-<img src="https://github.com/user-attachments/assets/610fac79-ede7-4895-8601-b5da5d9b6b79" width="600" alt="Layer1">
+  <img src="https://github.com/user-attachments/assets/610fac79-ede7-4895-8601-b5da5d9b6b79" width="600" alt="Layer1">
 
 - Layer 2: Modifier: かな (`japanese_kana`), NumPad.
 
-<img src="https://github.com/user-attachments/assets/276149fb-370f-41a6-8b27-3b5288998157" width="600" alt="Layer2">
+  <img src="https://github.com/user-attachments/assets/276149fb-370f-41a6-8b27-3b5288998157" width="600" alt="Layer2">
 
 - Keymap
 
-<img src="https://github.com/user-attachments/assets/0b99ec82-c42c-454a-a326-0db4ed58cc10" width="600" alt="Keymap">
+  <img src="https://github.com/user-attachments/assets/0b99ec82-c42c-454a-a326-0db4ed58cc10" width="600" alt="Keymap">
 
 ## Install
 
