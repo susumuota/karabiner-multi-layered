@@ -57,19 +57,19 @@
             },
             {
               "set_variable": {
-                "name": "1: [Web Browser] 英数 + w, r to ⌘ + ←, → (Page Back, Forward)",
+                "name": "1: [Web Browser] 英数 + w, r to ⌘ + ←, → (Page Backward, Forward)",
                 "value": 1
               }
             },
             {
               "set_variable": {
-                "name": "1: [Web Browser] 英数 + q, t to ⌃⇧ + ⇥, ⌃ + ⇥ (Switch Tab)",
+                "name": "1: [Web Browser] 英数 + q, t to ⌃⇧ + ⇥, ⌃ + ⇥ (Switch Tabs)",
                 "value": 1
               }
             },
             {
               "set_variable": {
-                "name": "1: [Mission Control] 英数 + m, comma, period to ⌃ + ←, ↑, → (Switch Desktop)",
+                "name": "1: [Mission Control] 英数 + m, comma, period to ⌃ + ←, ↑, → (Switch Desktops)",
                 "value": 1
               }
             }
@@ -136,19 +136,19 @@
             },
             {
               "set_variable": {
-                "name": "1: [Web Browser] 英数 + w, r to ⌘ + ←, → (Page Back, Forward)",
+                "name": "1: [Web Browser] 英数 + w, r to ⌘ + ←, → (Page Backward, Forward)",
                 "value": 0
               }
             },
             {
               "set_variable": {
-                "name": "1: [Web Browser] 英数 + q, t to ⌃⇧ + ⇥, ⌃ + ⇥ (Switch Tab)",
+                "name": "1: [Web Browser] 英数 + q, t to ⌃⇧ + ⇥, ⌃ + ⇥ (Switch Tabs)",
                 "value": 0
               }
             },
             {
               "set_variable": {
-                "name": "1: [Mission Control] 英数 + m, comma, period to ⌃ + ←, ↑, → (Switch Desktop)",
+                "name": "1: [Mission Control] 英数 + m, comma, period to ⌃ + ←, ↑, → (Switch Desktops)",
                 "value": 0
               }
             }
@@ -524,7 +524,7 @@
       ]
     },
     {
-      "description": "Layer - 1: [Web Browser] 英数 + w, r to ⌘ + ←, → (Page Back, Forward)",
+      "description": "Layer - 1: [Web Browser] 英数 + w, r to ⌘ + ←, → (Page Backward, Forward)",
       "manipulators": [
         {
           "type": "basic",
@@ -542,7 +542,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "1: [Web Browser] 英数 + w, r to ⌘ + ←, → (Page Back, Forward)",
+              "name": "1: [Web Browser] 英数 + w, r to ⌘ + ←, → (Page Backward, Forward)",
               "value": 1
             }
           ]
@@ -563,7 +563,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "1: [Web Browser] 英数 + w, r to ⌘ + ←, → (Page Back, Forward)",
+              "name": "1: [Web Browser] 英数 + w, r to ⌘ + ←, → (Page Backward, Forward)",
               "value": 1
             }
           ]
@@ -571,7 +571,7 @@
       ]
     },
     {
-      "description": "Layer - 1: [Web Browser] 英数 + q, t to ⌃⇧ + ⇥, ⌃ + ⇥ (Switch Tab)",
+      "description": "Layer - 1: [Web Browser] 英数 + q, t to ⌃⇧ + ⇥, ⌃ + ⇥ (Switch Tabs)",
       "manipulators": [
         {
           "type": "basic",
@@ -590,7 +590,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "1: [Web Browser] 英数 + q, t to ⌃⇧ + ⇥, ⌃ + ⇥ (Switch Tab)",
+              "name": "1: [Web Browser] 英数 + q, t to ⌃⇧ + ⇥, ⌃ + ⇥ (Switch Tabs)",
               "value": 1
             }
           ]
@@ -611,7 +611,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "1: [Web Browser] 英数 + q, t to ⌃⇧ + ⇥, ⌃ + ⇥ (Switch Tab)",
+              "name": "1: [Web Browser] 英数 + q, t to ⌃⇧ + ⇥, ⌃ + ⇥ (Switch Tabs)",
               "value": 1
             }
           ]
@@ -619,7 +619,7 @@
       ]
     },
     {
-      "description": "Layer - 1: [Mission Control] 英数 + m, comma, period to ⌃ + ←, ↑, → (Switch Desktop)",
+      "description": "Layer - 1: [Mission Control] 英数 + m, comma, period to ⌃ + ←, ↑, → (Switch Desktops)",
       "manipulators": [
         {
           "type": "basic",
@@ -637,7 +637,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "1: [Mission Control] 英数 + m, comma, period to ⌃ + ←, ↑, → (Switch Desktop)",
+              "name": "1: [Mission Control] 英数 + m, comma, period to ⌃ + ←, ↑, → (Switch Desktops)",
               "value": 1
             }
           ]
@@ -658,7 +658,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "1: [Mission Control] 英数 + m, comma, period to ⌃ + ←, ↑, → (Switch Desktop)",
+              "name": "1: [Mission Control] 英数 + m, comma, period to ⌃ + ←, ↑, → (Switch Desktops)",
               "value": 1
             }
           ]
@@ -679,7 +679,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "1: [Mission Control] 英数 + m, comma, period to ⌃ + ←, ↑, → (Switch Desktop)",
+              "name": "1: [Mission Control] 英数 + m, comma, period to ⌃ + ←, ↑, → (Switch Desktops)",
               "value": 1
             }
           ]
