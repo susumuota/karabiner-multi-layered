@@ -2,6 +2,10 @@
 
 This is a [Karabiner-Elements](https://karabiner-elements.pqrs.org/) complex modification for Japanese keyboards. It provides a multi-layered keymap that allows you to use the same keys for different functions depending on the layer you are in.
 
+<img src="https://github.com/user-attachments/assets/610fac79-ede7-4895-8601-b5da5d9b6b79" width="600" alt="Layer1">
+
+<img src=https://github.com/user-attachments/assets/276149fb-370f-41a6-8b27-3b5288998157" width="600" alt="Layer2">
+
 ## Install
 
 - Open `Karabiner-Elements Settings`.
