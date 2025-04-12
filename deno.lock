@@ -1,5 +1,14 @@
 {
   "version": "4",
+  "specifiers": {
+    "jsr:@std/cli@*": "1.0.16",
+    "jsr:@std/cli@^1.0.16": "1.0.16"
+  },
+  "jsr": {
+    "@std/cli@1.0.16": {
+      "integrity": "02df293099c35b9e97d8ca05f57f54bd1ee08134f25d19a4756b3924695f4b00"
+    }
+  },
   "remote": {
     "https://deno.land/std@0.192.0/_util/asserts.ts": "178dfc49a464aee693a7e285567b3d0b555dc805ff490505a8aae34f9cfb1462",
     "https://deno.land/std@0.192.0/_util/os.ts": "d932f56d41e4f6a6093d56044e29ce637f8dcc43c5a90af43504a889cf1775e3",
@@ -46,5 +55,10 @@
     "https://deno.land/x/karabinerts@1.31.0/utils/with-condition.ts": "44ab7e95673094f81479d24260bfad9984235bdf1bb323eb64fddddc67a16030",
     "https://deno.land/x/karabinerts@1.31.0/utils/with-mapper.ts": "3b6aca69277c73a0e853d875d0233a4d4acfa358e0664ac35eb167571a4bc642",
     "https://deno.land/x/karabinerts@1.31.0/utils/with-modifier.ts": "6ec0223c4132199921e1807f61a85940aa87a6f4252d1c4c9092bd85af453b6c"
+  },
+  "workspace": {
+    "dependencies": [
+      "jsr:@std/cli@^1.0.16"
+    ]
   }
 }
