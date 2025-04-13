@@ -51,7 +51,7 @@
             },
             {
               "set_variable": {
-                "name": "1: [Mouse] 英数 + x, v to Mouse Button 1, 2",
+                "name": "1: [Mouse] 英数 + v, x, c to Mouse Button 1, 2, 4",
                 "value": 1
               }
             },
@@ -130,7 +130,7 @@
             },
             {
               "set_variable": {
-                "name": "1: [Mouse] 英数 + x, v to Mouse Button 1, 2",
+                "name": "1: [Mouse] 英数 + v, x, c to Mouse Button 1, 2, 4",
                 "value": 0
               }
             },
@@ -483,12 +483,12 @@
       ]
     },
     {
-      "description": "Layer - 1: [Mouse] 英数 + x, v to Mouse Button 1, 2",
+      "description": "Layer - 1: [Mouse] 英数 + v, x, c to Mouse Button 1, 2, 4",
       "manipulators": [
         {
           "type": "basic",
           "from": {
-            "key_code": "x"
+            "key_code": "v"
           },
           "to": [
             {
@@ -498,7 +498,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "1: [Mouse] 英数 + x, v to Mouse Button 1, 2",
+              "name": "1: [Mouse] 英数 + v, x, c to Mouse Button 1, 2, 4",
               "value": 1
             }
           ]
@@ -506,7 +506,7 @@
         {
           "type": "basic",
           "from": {
-            "key_code": "v"
+            "key_code": "x"
           },
           "to": [
             {
@@ -516,7 +516,25 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "1: [Mouse] 英数 + x, v to Mouse Button 1, 2",
+              "name": "1: [Mouse] 英数 + v, x, c to Mouse Button 1, 2, 4",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "c"
+          },
+          "to": [
+            {
+              "pointing_button": "button4"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "1: [Mouse] 英数 + v, x, c to Mouse Button 1, 2, 4",
               "value": 1
             }
           ]
@@ -721,7 +739,7 @@
             },
             {
               "set_variable": {
-                "name": "2: [NumPad] かな + v, f, c, d, s to Keypad +, -, *, /, =",
+                "name": "2: [NumPad] かな + v, f, d, s, a to Keypad +, -, *, /, =",
                 "value": 1
               }
             }
@@ -770,7 +788,7 @@
             },
             {
               "set_variable": {
-                "name": "2: [NumPad] かな + v, f, c, d, s to Keypad +, -, *, /, =",
+                "name": "2: [NumPad] かな + v, f, d, s, a to Keypad +, -, *, /, =",
                 "value": 0
               }
             }
@@ -1203,7 +1221,7 @@
       ]
     },
     {
-      "description": "Layer - 2: [NumPad] かな + v, f, c, d, s to Keypad +, -, *, /, =",
+      "description": "Layer - 2: [NumPad] かな + v, f, d, s, a to Keypad +, -, *, /, =",
       "manipulators": [
         {
           "type": "basic",
@@ -1218,7 +1236,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "2: [NumPad] かな + v, f, c, d, s to Keypad +, -, *, /, =",
+              "name": "2: [NumPad] かな + v, f, d, s, a to Keypad +, -, *, /, =",
               "value": 1
             }
           ]
@@ -1236,25 +1254,7 @@
           "conditions": [
             {
               "type": "variable_if",
-              "name": "2: [NumPad] かな + v, f, c, d, s to Keypad +, -, *, /, =",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "c"
-          },
-          "to": [
-            {
-              "key_code": "keypad_asterisk"
-            }
-          ],
-          "conditions": [
-            {
-              "type": "variable_if",
-              "name": "2: [NumPad] かな + v, f, c, d, s to Keypad +, -, *, /, =",
+              "name": "2: [NumPad] かな + v, f, d, s, a to Keypad +, -, *, /, =",
               "value": 1
             }
           ]
@@ -1266,13 +1266,13 @@
           },
           "to": [
             {
-              "key_code": "keypad_slash"
+              "key_code": "keypad_asterisk"
             }
           ],
           "conditions": [
             {
               "type": "variable_if",
-              "name": "2: [NumPad] かな + v, f, c, d, s to Keypad +, -, *, /, =",
+              "name": "2: [NumPad] かな + v, f, d, s, a to Keypad +, -, *, /, =",
               "value": 1
             }
           ]
@@ -1284,13 +1284,31 @@
           },
           "to": [
             {
+              "key_code": "keypad_slash"
+            }
+          ],
+          "conditions": [
+            {
+              "type": "variable_if",
+              "name": "2: [NumPad] かな + v, f, d, s, a to Keypad +, -, *, /, =",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "a"
+          },
+          "to": [
+            {
               "key_code": "keypad_equal_sign"
             }
           ],
           "conditions": [
             {
               "type": "variable_if",
-              "name": "2: [NumPad] かな + v, f, c, d, s to Keypad +, -, *, /, =",
+              "name": "2: [NumPad] かな + v, f, d, s, a to Keypad +, -, *, /, =",
               "value": 1
             }
           ]

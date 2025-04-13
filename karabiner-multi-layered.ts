@@ -50,9 +50,10 @@ const createMods = (
       map('g').toMouseKey({ vertical_wheel: wheelSpeed }),
       map('b').toMouseKey({ vertical_wheel: -1 * wheelSpeed }),
     ]),
-    layer(layer1KeyCode, `1: [Mouse] ${layer1Label} + x, v to Mouse Button 1, 2`).manipulators([
-      map('x').toPointingButton('button1'),
-      map('v').toPointingButton('button2'),
+    layer(layer1KeyCode, `1: [Mouse] ${layer1Label} + v, x, c to Mouse Button 1, 2, 4`).manipulators([
+      map('v').toPointingButton('button1'),
+      map('x').toPointingButton('button2'),
+      map('c').toPointingButton('button4'),
     ]),
     layer(layer1KeyCode, `1: [Web Browser] ${layer1Label} + w, r to ⌘ + ←, → (Page Backward, Forward)`).manipulators([
       map('w').to('←', '⌘'),
@@ -98,12 +99,12 @@ const createMods = (
       map('/').to('keypad_period'),
       map(';').to('keypad_comma'),
     ]),
-    layer(layer2KeyCode, `2: [NumPad] ${layer2Label} + v, f, c, d, s to Keypad +, -, *, /, =`).manipulators([
+    layer(layer2KeyCode, `2: [NumPad] ${layer2Label} + v, f, d, s, a to Keypad +, -, *, /, =`).manipulators([
       map('v').to('keypad_plus'),
       map('f').to('keypad_hyphen'),
-      map('c').to('keypad_asterisk'),
-      map('d').to('keypad_slash'),
-      map('s').to('keypad_equal_sign'),
+      map('d').to('keypad_asterisk'),
+      map('s').to('keypad_slash'),
+      map('a').to('keypad_equal_sign'),
     ]),
     // Layer 0
     rule('Layer - 0: [Optional] Right ⌘ to Backspace').manipulators([
